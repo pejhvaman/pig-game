@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pig game</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <script defer src="./src/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="player player-0 player-active">
+        <h2 class="title">Player 1</h2>
+        <span class="score score-0">0</span>
+        <p class="current-container">
+          current: <br />
+          <span class="current current-0">0</span>
+        </p>
+      </section>
+
+      <section class="btns-container">
+        <button class="reset-btn">🔄 Reset</button>
+        <img src="./public/img/dice-5.png" alt="dice" class="dice" />
+        <button class="roll">🎲 Roll</button>
+        <button class="hold">⏹ Hold</button>
+      </section>
+
+      <section class="player player-1">
+        <h2 class="title">Player 2</h2>
+        <span class="score score-1">0</span>
+        <p class="current-container">
+          current: <br />
+          <span class="current current-1">0</span>
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
