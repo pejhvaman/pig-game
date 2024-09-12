@@ -20,7 +20,7 @@ let currentPlayer,
 
 const randInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
-const showDice = (dice) => (diceEl.src = `./public/img/dice-${dice}.png`);
+const showDice = (dice) => (diceEl.src = `dice-${dice}.png`);
 
 const init = function () {
   currentPlayer = 0;
